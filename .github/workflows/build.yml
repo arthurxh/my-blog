@@ -17,7 +17,11 @@ jobs:
   check:
     strategy:
       matrix:
+<<<<<<< HEAD
         node:  [ 20 ]  
+=======
+        node:  [20] 
+>>>>>>> origin
     runs-on: ubuntu-latest
     name: Astro Check for Node.js ${{ matrix.node }}
     steps:
@@ -43,7 +47,11 @@ jobs:
   build:
     strategy:
       matrix:
+<<<<<<< HEAD
         node:  [ 20 ] 
+=======
+        node:  [20]
+>>>>>>> origin
     runs-on: ubuntu-latest
     name: Astro Build for Node.js ${{ matrix.node }} # Corrected job name
     steps:
